@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Wiki Viewer</title>
+        <link rel="stylesheet" href="style.css" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400,700" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    </head>
+
+    <body>
+        <div class="container">
+
+            <form id="wikiSearch" class="wikiSearch">
+                <!--<h1 class="title">Wiki Viewer</h1>-->
+                <input id="searchBar" type="text" autocomplete="off" name="search" placeholder="search wikipedia..." />
+                <button id="submitBtn" type="submit"><i class="fas fa-search fa-3x"></i></i></button>
+                <a id="spontaneous" target="_blank" href="https://en.wikipedia.org/wiki/Special:Random">Feeling Spontaneous?</a>
+            </form>
+
+
+            <div>
+                <ul id="searchResults">
+
+                </ul>
+            </div>
+
+        </div>
+    </body>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript" src="app.js"></script>
+
+</html>

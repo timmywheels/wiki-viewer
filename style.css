@@ -1,0 +1,107 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    background: #f5f5f5;
+}
+
+.title {
+    font-weight: 200;
+}
+
+.wikiSearch {
+    display: block;
+    margin: 100px auto 25px;
+    /* border: 2px solid #ddd; */
+    /* border-radius: 4px; */
+    width: 800px;
+    text-align: center;
+    padding: 20px;
+}
+
+#searchBar {
+    height: 50px;
+    text-align: center;
+    width: 600px;
+    font-weight: 100;
+    font-size: 50px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    color: #919191;
+    padding: 30px;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    border-bottom: 3px solid #919191;
+    background: transparent;
+    margin: 20px auto;
+    padding-bottom: 40px;
+}
+
+#submitBtn {
+    background: transparent;
+    border: none;
+    height: 50px;
+    width: 50px;
+    outline: none;
+    cursor: pointer;
+    margin-left: -50px;
+}
+
+#submitBtn i {
+    color: #ddd;
+}
+
+#spontaneous {
+    display: block;
+    margin-top: 20px;
+    text-decoration: none;
+    text-transform: lowercase;
+    font-weight: 100;
+    letter-spacing: 3px;
+}
+
+#searchResults {
+    list-style: none;
+    width: 1000px;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    padding-left: 0;
+}
+
+.singleResult {
+    background: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 100;
+    padding: 5px 45px;
+    margin-bottom: 10px;
+    box-shadow: 3px 3px 10px #cacaca;
+    display: inline-block;
+    margin: 15px;
+    /* min-width: 400px; */
+    border-bottom: 4px solid #ddd;
+    border-radius: 10px;
+    color: #919191;
+}
+
+.singleResult p {
+    font-size: 20px;
+}
+
+::placeholder {
+    /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #ddd;
+    opacity: 1;
+    /* Firefox */
+}
+
+:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: #ddd;
+}
+
+::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: #ddd;
+}
