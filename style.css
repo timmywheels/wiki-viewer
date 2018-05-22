@@ -32,7 +32,7 @@ body {
     box-sizing: border-box;
     outline: none;
     border: none;
-    border-bottom: 3px solid #919191;
+    border-bottom: 3px solid #ddd;
     background: transparent;
     margin: 20px auto;
     padding-bottom: 40px;
@@ -53,7 +53,8 @@ body {
 }
 
 #spontaneous {
-    display: block;
+    /*display: block;*/
+    display: none;
     margin-top: 20px;
     text-decoration: none;
     text-transform: lowercase;
