@@ -1,5 +1,5 @@
 body {
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     box-sizing: border-box;
     background: #f5f5f5;
 }
@@ -10,7 +10,7 @@ body {
 
 .wikiSearch {
     display: block;
-    margin: 100px auto 25px;
+    margin: 0 auto 25px;
     /* border: 2px solid #ddd; */
     /* border-radius: 4px; */
     width: 800px;
@@ -25,7 +25,7 @@ body {
     font-weight: 100;
     font-size: 50px;
     display: inline-block;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     font-weight: 100;
     color: #919191;
     padding: 30px;
@@ -36,6 +36,7 @@ body {
     background: transparent;
     margin: 20px auto;
     padding-bottom: 40px;
+    transition: border-bottom 0.5s ease;
 }
 
 #submitBtn {
@@ -53,8 +54,7 @@ body {
 }
 
 #spontaneous {
-    /*display: block;*/
-    display: none;
+    display: block;
     margin-top: 20px;
     text-decoration: none;
     text-transform: lowercase;
@@ -64,7 +64,7 @@ body {
 
 #searchResults {
     list-style: none;
-    width: 1000px;
+    width: 100%;
     margin: 0 auto;
     text-align: center;
     display: block;
@@ -73,21 +73,21 @@ body {
 
 .singleResult {
     background: #fff;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Inconsolata', sans-serif;
     font-weight: 100;
-    padding: 5px 45px;
-    margin-bottom: 10px;
-    box-shadow: 3px 3px 10px #cacaca;
+    padding: 0 45px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, .14), 0 3px 1px -2px rgba(0, 0, 0, .2), 0 1px 5px 0 rgba(0, 0, 0, .12);
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
     /* min-width: 400px; */
-    border-bottom: 4px solid #ddd;
-    border-radius: 10px;
-    color: #919191;
+    border-bottom: 1px solid #ddd;
+    border-radius: 6px;
+    color: #777;
 }
 
 .singleResult p {
-    font-size: 20px;
+    font-size: 16px;
+    letter-spacing: 0.5px;
 }
 
 ::placeholder {
@@ -105,4 +105,9 @@ body {
 ::-ms-input-placeholder {
     /* Microsoft Edge */
     color: #ddd;
+}
+
+.alert {
+    border-bottom: 3px solid #c8102e !important;
+    transition: border-bottom 0.5s ease;
 }
