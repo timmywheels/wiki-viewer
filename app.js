@@ -60,8 +60,7 @@ function searchResults(url) {
                 $(resultsLi).wrap(function() {
                     return '<a target="_blank" href="https://en.wikipedia.org/wiki/' + result.query.pages[i].title + '"></a>';
                 });
-
-                $(resultsLi).fadeIn(400);
+                $(resultsLi).fadeIn(1000);
 
                 // hoverBtns();
 

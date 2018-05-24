@@ -55,11 +55,19 @@ body {
 
 #spontaneous {
     display: block;
-    margin-top: 20px;
     text-decoration: none;
     text-transform: lowercase;
     font-weight: 100;
     letter-spacing: 3px;
+    color: #ccc;
+    transition-property: color;
+    transition-duration: 1s;
+}
+
+#spontaneous:hover {
+    color: #c8102e;
+    transition-property: color;
+    transition-duration: 1s;
 }
 
 #searchResults {
